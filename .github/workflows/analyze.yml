@@ -33,7 +33,7 @@ jobs:
           mkdir build && cd build
           cmake .. -GNinja \
                    -DCMAKE_BUILD_TYPE=Debug \
-                   -DPALANTEER_BUILD_VIEWER=ON
+                   -DPALANTEER_BUILD_VIEWER=ON \
                    -DPALANTEER_BUILD_CPP_EXAMPLE=ON
       - name: Run build-wrapper
         run: |
